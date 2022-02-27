@@ -1,0 +1,117 @@
+main {
+    display: flex;
+    width: 100%;
+    flex-flow: column;
+    min-height: 100vh;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+}
+
+.consent {
+    font-size: small;
+    display: inline-block;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+div {
+    margin: .25rem;
+}
+
+input {
+    border-radius: 5px;
+    border: .5px solid gray;
+    box-shadow: inset 0 0  1px .5px lightgrey;
+}
+
+input:focus {
+    border: none;
+    box-shadow: 0 0 5px 5px lightblue;
+}
+
+button {
+    border-radius: 5px;
+    border: none;
+    color: whitesmoke;
+    background-color: royalblue;
+}
+
+.Terms-conditions {
+    padding: 0;
+    padding-bottom: 0;
+    margin-left: 80px;
+    margin-bottom: 0;
+}
+
+.Contact-info input:first-child {
+    display: block;
+    margin-bottom: 10px ;
+}
+
+.Contact-info input {
+    width: 22.5rem;
+    padding: .5rem;
+}
+
+
+.Terms-conditions p {
+    display: inline-block;
+    width: 22rem;
+    margin-right: 3rem;
+    font-size: .8rem;
+    font-weight: thin;
+    margin-bottom: 0;
+}
+
+.Terms-conditions .consent {
+    margin-right: 50px;
+    margin-bottom: 5px;
+}
+
+.Full-name input, .Password input {
+    width: 124px;
+    padding: .5rem;
+    
+}
+
+.Full-name input:first-child, .Password input:first-child {
+    margin-right: 5px;
+    padding-right: 3rem;
+
+}
+
+.Full-name input:last-child, .Password input:last-child {
+    margin-left: 5px;
+    padding-right: 3rem;
+}
+
+.signin-option {
+    padding: .6rem;
+    padding-left: 4.5rem;
+    padding-right: 4.5rem;
+}
+
+.signin-option:first-of-type {
+    background-color: royalblue;
+    margin-right: 10px;
+    
+}
+
+.signin-option:last-of-type {
+    background-color: rgb(58, 158, 58);
+    margin-left: 10px;
+}
+
+.signin {
+    margin-top: 0;
+}
+
