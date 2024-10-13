@@ -1,8 +1,3 @@
-import '../scss/style.scss'
-
-// Import all of Bootstrap's JS
-import * as bootstrap from 'bootstrap'
-
 const route = (event) => {
   event = event || window.event;
   event.preventDefault();
